@@ -183,6 +183,11 @@ body.tom2-page {
     color: #e0f0e0;
 }
 
+body.tom2-prolog {
+    background-image: url('assets/illustrations/tom2/tom2-prolog.png');
+    color: #f5e6d3;
+}
+
 body.tom3-page {
     background-image: url('assets/illustrations/tom3/tom3-cover.png');
     color: #dce6f0;
