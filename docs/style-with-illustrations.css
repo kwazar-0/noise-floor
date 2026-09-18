@@ -44,6 +44,11 @@ body.chapter-cell::before {
     background-image: url('../assets/illustrations/tom1-v2/tom1-v2-01-cell.png');
 }
 
+/* Character portrait backgrounds (alternative) */
+body.character-nina::before {
+    background-image: url('../assets/references/characters/ref-character-nina.png');
+}
+
 body.chapter-moskvich::before {
     background-image: url('../assets/illustrations/tom1-v2/tom1-v2-02-moskvich.png');
 }
