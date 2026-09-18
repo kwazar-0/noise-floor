@@ -118,14 +118,19 @@ def convert_tome(tome_num: int, tome_path: str, tome_name: str, output_path: str
     
     # Get list of chapter files
     if tome_num == 1:
-        # Tom 1: prolog + glava-01 to glava-27
+        # Tom 1: prolog + glava-01 to glava-27 (skip OLD/backup files)
         files = []
         if (text_dir / "prolog.md").exists():
             files.append("prolog.md")
-        for i in range(1, 28):
-            file_path = text_dir / f"glava-{i:02d}.md"
-            if file_path.exists():
-                files.append(f"glava-{i:02d}.md")
+        
+        # Get all glava-*.md files, excluding OLD/backup
+        all_md = sorted(text_dir.glob("glava-*.md"))
+        for file_path in all_md:
+            filename = file_path.name
+            # Skip OLD, backup, and NEW versions
+            if any(x in filename for x in ['-OLD', '-old', '-NEW', '-new', 'backup']):
+                continue
+            files.append(filename)
     
     elif tome_num == 2:
         # Tom 2: prolog, sessions, intermedia, epilog
