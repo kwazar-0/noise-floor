@@ -155,9 +155,15 @@ body.cover-page::before {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 3rem 2rem;
+    padding: 4rem 3rem;
     position: relative;
     z-index: 1;
+}
+
+/* Main article content */
+article {
+    padding: 2rem;
+    margin: 2rem 0;
 }
 
 /* Headers */
@@ -212,9 +218,16 @@ a:hover {
 /* Navigation */
 .nav {
     margin: 3rem 0;
-    padding: 1.5rem;
+    padding: 1.5rem 2rem;
     background: rgba(0, 0, 0, 0.7);
     border-left: 4px solid var(--amber-warm);
+}
+
+/* Paragraph links at top */
+body > p {
+    padding: 1.5rem 2rem;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .nav a {
@@ -265,7 +278,12 @@ blockquote {
 /* Responsive */
 @media (max-width: 768px) {
     .container {
-        padding: 2rem 1rem;
+        padding: 2rem 1.5rem;
+    }
+    
+    article {
+        padding: 1.5rem;
+        margin: 1.5rem 0;
     }
     
     h1 {
@@ -274,5 +292,16 @@ blockquote {
     
     h2 {
         font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem 1rem;
+    }
+    
+    article {
+        padding: 1rem;
+        margin: 1rem 0;
     }
 }
