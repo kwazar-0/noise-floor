@@ -161,6 +161,21 @@ body.cover-page {
     background-image: url('assets/illustrations/tom1-v2/tom1-v2-00-cover.png');
 }
 
+.cover-plate {
+    margin: 1.5rem 0 2.5rem;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.cover-plate img {
+    width: min(100%, 420px);
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 18px 48px rgba(0, 0, 0, 0.65);
+}
+
 body.tom2-page {
     background-image: url('assets/illustrations/tom2/tom2-cover.png');
     color: #e0f0e0;
