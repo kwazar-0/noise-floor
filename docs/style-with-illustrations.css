@@ -84,8 +84,22 @@ body.chapter-empty-place {
 }
 
 body.chapter-dekanat {
-    /* гл. 9 — кабінет Ірини Петрівни, не нічний КНУ і не відділ кадрів */
-    background-image: url('assets/references/interiors/ref-interior-dekanat.png');
+    /* гл. 9 — сцена деканші на 10% непрозрачности, чтобы не бить текст */
+    background-image: none;
+}
+
+body.chapter-dekanat::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.1;
+    background-image: url('assets/references/scenes/ref-scene-09-dean-sees-fox.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 body.chapter-cafe {

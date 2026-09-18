@@ -54,7 +54,7 @@
 | 6 | `glava-06.md` Липки | `scene-breakdown-chapter-06.md` | эп. 3 | `tom1-v2-04-karakul.png` | Pages: `chapter-karakul`; не деканат, не кухня Ніни |
 | 7 | `glava-07.md` Школа гетеры | бриф | эп. 4 «Актив» | `ref-interior-training-dawn` | без титра Chapter 5 |
 | 8 | `glava-08.md` Контракт | бриф | эп. 4 | нет трёх листов | **нужен** KV договора |
-| 9 | `glava-09.md` Деканат | бриф | эп. 5 «Печать» | `ref-interior-dekanat` | кабінет, не КНУ з вікна |
+| 9 | `glava-09.md` Деканат | бриф | эп. 5 «Печать» | `ref-scene-09-dean-sees-fox` (Pages) / `ref-interior-dekanat` | реакція деканші; порожній кабінет — інтер'єр |
 | 10 | `glava-10.md` Ніна | бриф | эп. 5 | `ref-interior-soviet-kitchen` | не кафе комітету; не кухня Віктора |
 | 11 | `glava-11.md` Гаражі | бриф | эп. 5 | `tom1-v2-09-garages.png` | ок |
 | 12 | `glava-12.md` СІТО | бриф | эп. 6 «Фосфор» | `tom1-v2-10-sito.png` | ок |

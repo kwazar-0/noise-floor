@@ -21,7 +21,7 @@ Stop-list: `roman/00-cikl/setings/adaptaciya/stop-list.md`
 | 2 Адептка | `ref-olya-02-cult-adept.png` | **2–3** (пять ночей) | не гл. 1; не лагерь; не `_deprecated` v1 |
 | 3 Начало у Марго | `ref-olya-03-training-start.png` | **5, 7–8** | соло, без «молодой Марго» в кадре |
 | 4 «Донечка» ВП | `ref-olya-04-vp-daughter.png` | **14, 16** | не культ |
-| 5 Референт | `ref-olya-05-government-referent.png` | **9, 12, 14+** | норка = чужой скафандр, не кайф |
+| 5 Референт | `ref-olya-05-mink-vaz2108.png` (гл. 9, філфак) / `ref-olya-05-government-referent.png` (коридор) | **9, 12, 14+** | норка = чужой скафандр; не KPI; не ст. 6 |
 
 Лицо одно. Меняются ткань, спина, свет.
 
@@ -55,7 +55,8 @@ Stop-list: `roman/00-cikl/setings/adaptaciya/stop-list.md`
 |---|---|---|
 | Общага | `ref-interior-dorm-glava01.png` | 1 (не ячейка) |
 | Ячейка (гурток) | `ref-interior-cult-cell-club.png` | **2** (не барак `ref-interior-cult-cell.png`) |
-| Деканат | `ref-interior-dekanat.png` | **9** — кабінет Ірини Петрівни |
+| Деканат | `ref-interior-dekanat.png` | **9** — порожній кабінет |
+| Деканат (Pages) | `scenes/ref-scene-09-dean-sees-fox.png` | **9** — фон читалки: Ірина Петрівна / Оля в песці |
 | Стійка / школа | `ref-interior-training-dawn.png` | **7** |
 | Гримёрка ДК | `ref-interior-dk-dressing-room.png` | 5 |
 | Салон «Москвича» | `ref-interior-moskvich.png` | 4 |
