@@ -1,0 +1,122 @@
+/* Noise Floor — Minimal Styling */
+
+:root {
+  --bg: #0a0a0a;
+  --text: #d0d0d0;
+  --accent: #4a90e2;
+  --border: #2a2a2a;
+  --hover: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.7;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+  margin: 2rem 0 1rem;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: var(--accent);
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #888;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+a:hover {
+  border-bottom-color: var(--accent);
+}
+
+.nav-section {
+  background: var(--hover);
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 4px;
+}
+
+.nav-section h3 {
+  margin-top: 0;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.nav-links li {
+  margin: 0.5rem 0;
+  padding-left: 1rem;
+}
+
+.metadata {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
+.voice-label {
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  color: #999;
+  font-style: italic;
+}
+
+code {
+  background: var(--hover);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+}
