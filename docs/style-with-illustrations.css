@@ -82,7 +82,7 @@ body.chapter-empty-place {
 }
 
 body.chapter-dekanat {
-    background-image: url('assets/illustrations/tom1-v2/tom1-v2-07-dekanat.png');
+    background-image: url('assets/illustrations/kyiv-night/kyiv-night-knu.png');
 }
 
 body.chapter-cafe {
@@ -102,7 +102,7 @@ body.chapter-shulyavka {
 }
 
 body.chapter-grushevskogo {
-    background-image: url('assets/illustrations/tom1-v2/tom1-v2-12-grushevskogo.png');
+    background-image: url('assets/illustrations/kyiv-night/kyiv-night-cabinet-ministers.png');
 }
 
 body.chapter-mundshtuk {
@@ -159,6 +159,23 @@ body.chapter-madam-lin {
 
 body.cover-page {
     background-image: url('assets/illustrations/tom1-v2/tom1-v2-00-cover.png');
+}
+
+/* Real Kyiv night views from institutional windows */
+body.kyiv-mfa {
+    background-image: url('assets/illustrations/kyiv-night/kyiv-night-mfa.png');
+}
+
+body.kyiv-vru {
+    background-image: url('assets/illustrations/kyiv-night/kyiv-night-vru.png');
+}
+
+body.kyiv-mohylyanka {
+    background-image: url('assets/illustrations/kyiv-night/kyiv-night-mohylyanka.png');
+}
+
+body.kyiv-chimeras {
+    background-image: url('assets/illustrations/kyiv-night/kyiv-night-bankova-chimeras.png');
 }
 
 body.tom2-page {
