@@ -8,6 +8,7 @@ Reddit, Telegram. OSINT-комьюнити, журналисты, правоза
 
 Потом теги. Не один. Три одновременно.
 
+
 **#RussianDisinfo** (trending, 340K views)  
 **#ChinaUyghurs** (rising, 87K views)  
 **#SyrianWhiteHelmets** (active, 34K views)
@@ -55,6 +56,7 @@ sentiment, tags. Если боты создают шум, алгоритмы з�
 camps, Клайпеда. Фильтрация, транспорт, утилизация.
 
 — Мы опубликовали данные, — сказал он тихо. — Но кто увидит?
+
 Три тега закопали под шумом. Алгоритмы работают. Они не выбирают
 одну идеологию. Они запускают всё. Russian, China, Syrian. Какой
 trending — тот и работает. Универсальная машина.
@@ -63,6 +65,7 @@ trending — тот и работает. Универсальная машина
 маршруты, порты.
 
 — Это не про один конфликт, — сказал он. — Смотрите. Маршруты
+
 идут везде. Кяхта → Клайпеда → Роттердам. Синай → Кипр → Цюрих.
 Дамаск → Турция → Германия. Афганистан → Пакистан → Иран. Конго,
 Сомали, Йемен. Это глобальная сеть. Они используют все conflicts.
@@ -71,6 +74,7 @@ trending — тот и работает. Универсальная машина
 Николас кивнул:
 
 — И теги тоже. Russian, China, Syrian, Hamas, ISIS, Kurdish. Какой
+
 conflict горячий — тот и используют. Не идеология. Просто volume.
 Noise floor as a service.
 
@@ -79,6 +83,7 @@ Noise floor as a service.
 
 — Илья передал дамп, — сказала она. — Он рисковал. Может, погиб.
 Мы опубликовали. Сделали всё правильно. Но Manhattan имеет боты.
+
 Алгоритмы. Три тега. 47,000 ботов. Noise floor.
 
 Лейла писала в блокнот. Ручка царапала бумагу:
@@ -87,6 +92,7 @@ Noise floor as a service.
 lost at 22:59. Article published at 23:01. Three tags deployed
 simultaneously: #RussianDisinfo (primary, 340K), #ChinaUyghurs
 (secondary, 87K), #SyrianWhiteHelmets (tertiary, 34K). Article
+
 views: 12,400 (frozen). Engagement ratio: 28:1. Noise floor:
 operational.»**
 
@@ -103,6 +109,7 @@ operational.»**
 
 «Thanks.»
 «Will read.»
+
 «Is this verified?»
 «Looks like disinfo. Which tag — Russian or China?»
 «Bellingcat again? Hard to trust.»
@@ -135,6 +142,7 @@ disinfo. Потому что любая disinfo. Какая trending — ту и
 задокументировано. Всё проверено.
 
 — Может, кто-то увидит, — сказал он. — Через неделю. Через
+
 месяц. Когда шум спадёт.
 
 Кэтрин посмотрела на него:
@@ -149,8 +157,9 @@ disinfo — любой tag, Russian, China, Syrian — она остаётся d
 Связь оборвалась. Дамп пришёл. Статья опубликована. Три тега
 закопали. Noise floor operational.
 
-Он закрыл карту. Встал. Подошёл к окну. Лонг-Айленд, ночь. Огни
+Он закрыл карту. Встал. Подошёл к окну. Лонг-Айленд, ніч. Огни
 города. Далеко, за океаном, Балтика. 54.8N 18.6E. Там вода.
+
 Холодная. 9°C.
 
 Там Илья. Или был.
@@ -167,6 +176,7 @@ Hamas, ISIS, Kurdish, Afghan, Somali. Какой trending — тот и
 работают. Not ideology. Just noise. Universal service.
 
 Николас подошёл к Лейле. Посмотрел в блокнот. Имена, имена,
+
 имена. Ручка, бумага. Не облако. Не сервер.
 
 — Ты записываешь, — сказал он. — Но кто прочитает? После нас?
@@ -176,6 +186,7 @@ Hamas, ISIS, Kurdish, Afghan, Somali. Какой trending — тот и
 — Не знаю. Может, никто. Может, кто-то. Но если не записать,
 точно никто.
 
+
 Она продолжала писать:
 
 **«INFRASTRUCTURE: Global franchise. 12+ regional networks. Former
@@ -183,6 +194,7 @@ operatives + cartels + state intel alumni. Coverage: Europe, Middle
 East, Asia, Africa, LatAm. Finance: offshore structures, Gulf capital.
 Communication: corporate tools (Teams). Digital: 47K bots, multiple
 conflict tags. NOT: one ideology. IS: universal service. Client:
+
 Manhattan. Product: noise floor.»**
 
 Имена не стираются. Не в блокноте.
@@ -191,6 +203,7 @@ Manhattan. Product: noise floor.»**
 боты не проверяют хэши.
 
 Ханна закрыла скрипты. Ключи валидны. Подпись настоящая. Но
+
 алгоритмы не проверяют ключи.
 
 Дмитрий закрыл карту. Маршруты задокументированы. Но карты не
@@ -200,7 +213,8 @@ Manhattan. Product: noise floor.»**
 тонут в шуме. Не в одном. В трёх. Russian, China, Syrian. Какой
 сработает — тот и похоронит.
 
-Эллиот смотрел в окно. Серый пиксель на карте не двигался.
+
+Эллиот смотрел в вікно. Серый пиксель на карте не двигался.
 54.85N 18.62E. Там Илья. Или нет.
 
 Дамп пришёл. Статья опубликована. Три тега закопали.
@@ -215,5 +229,6 @@ Universal.
 
 Статья в сети. Под слоем шума. Три тега. Какой trending — тот и
 работает.
+
 
 System operational.

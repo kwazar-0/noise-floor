@@ -1,7 +1,7 @@
 # Акт V — Manhattan (22:30–23:00)
 
 Клуб, третий уровень. Закрытый зал, без окон. Панели тёмного 
-дерева, освещение 3000K. Стол низкий, чёрный лак. Шесть человек. 
+дерева, освещение 3000K. стіл низкий, чёрный лак. Шесть человек. 
 Двое физически отсутствуют — видеосвязь.
 
 Пендлтон открыл ноутбук. Microsoft Teams. Domain: [redacted]. 
@@ -32,6 +32,7 @@ backup route immediately.
 
 Вон переключил слайд. Таблица contractors:
 
+
 — Three alternatives. Mediterranean route: 12% cargo value, 14 days 
 port-to-port, risk low. Contractor: verified, 40 years experience, 
 Sinai network. Syrian route: 15% cargo value, 9 days, risk medium. 
@@ -47,6 +48,7 @@ Vance (London, video):
 Cost acceptable, risk minimal.
 
 Пендлтон: — Approved. Mediterranean route activated. Syrian and 
+
 LatAm on standby. Next agenda item. Digital cleanup?
 
 Ву (Singapore, video, screen share — analytics dashboard):
@@ -55,6 +57,7 @@ LatAm on standby. Next agenda item. Digital cleanup?
 23:01. Digital response ready. 47K bots deployed. Three tag options:
 
 Tag A: #RussianDisinfo (trending high, Baltic/Ukraine context)  
+
 Tag B: #ChinaUyghurs (trending medium, Xinjiang/organs angle)  
 Tag C: #SyrianWhiteHelmets (trending low, proven template)
 
@@ -63,6 +66,7 @@ optimization complete. Expected burial time: 3 minutes. Engagement
 projection: 340K vs 12K article views. Noise floor ratio: 28:1.
 
 Пендлтон: — Approved. Tag deployment authorized. Financial 
+
 reconciliation?
 
 Stern (screen share, spreadsheet):
@@ -71,6 +75,7 @@ Stern (screen share, spreadsheet):
 active. Money flow:
 
 Gulf payments: Dubai Free Zone → Cayman SPV → execution ($45M quarterly)  
+
 LatAm payments: Panama nominees → Singapore transit → execution ($12M quarterly)  
 Asian payments: Singapore hub → distributed ($8M quarterly)
 
@@ -80,6 +85,7 @@ current.
 
 Элеонора: — Compliance risk?
 
+
 Stern: — Low. All paperwork medical equipment procurement. Invoices 
 match manifests. Customs clearances obtained. No red flags. If 
 Bellingcat publishes, we show documents. Legitimate business on paper.
@@ -87,6 +93,7 @@ Bellingcat publishes, we show documents. Legitimate business on paper.
 Пендлтон: — Contractor performance Q3?
 
 Штейн (screen share, performance metrics):
+
 
 — 12 active contractors. Regional breakdown: Europe (3), Middle 
 East (4), Asia (2), Africa (2), LatAm (1). Success rate average: 
@@ -96,6 +103,7 @@ vs Q2, within tolerance.
 
 Вон добавил:
 
+
 — New contractor activated: Southern Africa network. Former scouts. 
 Test shipment October, pending. If successful, adds sub-Saharan 
 route option.
@@ -103,6 +111,7 @@ route option.
 Пендлтон: — Client satisfaction?
 
 Штейн: — Gulf tier-1 client: satisfied. Repeat orders confirmed. 
+
 Three private clinics: operational. Zurich, Dubai, Singapore. No 
 complaints. Quality maintained throughout cold chain.
 
@@ -120,6 +129,7 @@ Vance (video): — HMS Trent cleanup scope?
 Вон: — Full spectrum. Target coordinates confirmed. No survivors 
 expected. Standard procedure.
 
+
 Пендлтон: — Acceptable. Meeting adjourned. Next review: weekly 
 status call, Thursday 10:00 EST. Calendar invites sent.
 
@@ -127,6 +137,7 @@ status call, Thursday 10:00 EST. Calendar invites sent.
 
 Экран погас. Логи сохранены на корпоративном сервере. Зашифрованы. 
 Retention policy: 90 days.
+
 
 Штерн остался один. Стоял у стола. Бокал виски пустой.
 
@@ -136,6 +147,7 @@ Retention policy: 90 days.
 ✓ Financial flow clean → $65M Q3, audit compliant  
 ✓ Contractor network functional → 94% success rate
 
+
 Порядок. Logistics. Noise floor.
 
 22:59 UTC.
@@ -143,6 +155,7 @@ Retention policy: 90 days.
 Через тринадцать минут HMS Trent войдёт в квадрат. Через три минуты 
 статья Bellingcat утонет под шумом. Через четырнадцать дней 
 Mediterranean route доставит груз в Цюрих.
+
 
 Supply chain operational. Q3 targets met.
 

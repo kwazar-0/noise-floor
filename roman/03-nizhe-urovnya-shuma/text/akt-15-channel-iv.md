@@ -7,6 +7,7 @@
 Металлизированная ткань, отражала тепло, но не давала. Холодно.
 
 Амина. Держала сына. Мальчик молчал, не плакал. Фольга на них
+
 обоих. Одно одеяло на двоих.
 
 Елена. Сидела на бетоне, спиной к стене. Фольга на плечах.
@@ -32,6 +33,7 @@
 
 Полицейский: — «Name?»
 
+
 Ибрагим: — Ibrahim al-Rashid. Syria, Aleppo.
 
 Полицейский печатал. Ноутбук, база. Поиск.
@@ -39,6 +41,7 @@
 Результат: **«No asylum application on file. Illegal entry.»**
 
 Полицейский: — «You are detained. Deportation proceedings will
+
 begin.»
 
 Ибрагим кивнул. Не сопротивлялся. Фольга на плечах. Холодно.
@@ -64,6 +67,7 @@ begin.»
 Результат: **«Match found. Ukrainian biometric database.
 Registered refugee, Poland, 2022-03. Legal status: expired.»**
 
+
 Полицейский: — «Your asylum status expired in Poland. You
 entered UK illegally. Detained.»
 
@@ -71,6 +75,7 @@ entered UK illegally. Detained.»
 Утонула.
 
 Всех троих повели к фургону. Ибрагим, Амина с сыном, Елена.
+
 Фольга на плечах, мокрая одежда, холодно.
 
 Фургон закрылся. Уехал. Detention centre. Процедура депортации
@@ -80,6 +85,7 @@ entered UK illegally. Detained.»
 
 Полицейский записал в журнал:
 
+
 **«23:47 UTC. Channel crossing incident. Inflatable dinghy
 capsized, French waters. Border patrol HMS Dover intervened. 8
 persons on board. 4 recovered alive, 4 deceased/missing.»**
@@ -87,6 +93,7 @@ persons on board. 4 recovered alive, 4 deceased/missing.»**
 **«Recovered: Ibrahim al-Rashid (male, Syria), Amina (female,
 Syria), child (male, 6 years), Elena (female, Ukraine). Status:
 detained, illegal entry.»**
+
 
 **«Deceased/missing: Nadya (female, Belarus, drowned), Said
 (male, Afghanistan, drowned), Kristina (female, unknown, drowned),
@@ -112,20 +119,22 @@ shore. Search not conducted. Presumed drowned.»**
 
 Вода. 12°C. Тишина.
 
+
 Где-то там, в проливе, метров триста от берега, Тариэль. Лицом
 вниз. Не дышал. Тело остыло. 12°C. Вода такая же.
 
-Рука в воде. Флешка в руке. Сжата. Герметичный чехол. 128GB.
+рука в воде. Флешка в руке. Сжата. Герметичный чехол. 128GB.
 Грузия. 2008. Имена.
 
 Те, кто исчез. Те, кого стёрли. Те, кого забыли.
+
 
 Флешка в руке. Под водой. Чехол герметичный. Может, выдержит.
 Может, вода проникла. Может, память стёрлась.
 
 Не знали. Не проверяли. Тело не нашли.
 
-Тариэль держал флешку. Даже мёртвый. Рука сжата. Не отпустил.
+Тариэль держал флешку. Даже мёртвый. рука сжата. Не отпустил.
 
 Имена в руке. Под водой.
 
