@@ -73,10 +73,11 @@
 
 ### 06-empty-place — Кухня Віктора
 - Viktor and Olya at table
-- EMPTY CHAIR (daughter)
-- Borscht with sour cream cross
+- Distance between them (empty chair implied)
+- **Fried potatoes with onions** (poor meal, not borscht)
 - Black bread
 - Soviet kitchen interior reference
+- Реалізм: бідна їжа 1992 року
 
 ### 07-dekanat — Печать
 - Close-up: stamp on document
