@@ -1,0 +1,273 @@
+/* Manhattan Cabal — Style with Illustration Backgrounds */
+
+:root {
+    /* Color palette based on illustration tones */
+    --noir-dark: #1a1a1a;
+    --noir-light: #f5f5f5;
+    --amber-warm: #d4a574;
+    --green-soviet: #4a6b4f;
+    --blue-cold: #8b9dc3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.8;
+    background: var(--noir-dark);
+    color: var(--noir-light);
+    position: relative;
+    min-height: 100vh;
+}
+
+/* Background image container */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2; /* 20% transparency */
+    z-index: -1;
+}
+
+/* Page-specific backgrounds */
+body.chapter-cell::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-01-cell.png');
+}
+
+body.chapter-moskvich::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-02-moskvich.png');
+}
+
+body.chapter-dk::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-03-dk.png');
+}
+
+body.chapter-karakul::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-04-karakul.png');
+}
+
+body.chapter-dossier::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-05-dossier.png');
+}
+
+body.chapter-empty-place::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-06-empty-place.png');
+}
+
+body.chapter-dekanat::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-07-dekanat.png');
+}
+
+body.chapter-cafe::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-08-cafe-committee.png');
+}
+
+body.chapter-garages::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-09-garages.png');
+}
+
+body.chapter-sito::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-10-sito.png');
+}
+
+body.chapter-shulyavka::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-11-shulyavka.png');
+}
+
+body.chapter-grushevskogo::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-12-grushevskogo.png');
+}
+
+body.chapter-mundshtuk::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-13-mundshtuk.png');
+}
+
+body.chapter-koncha::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-14-koncha.png');
+}
+
+body.chapter-secret-court::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-15-secret-court.png');
+}
+
+body.chapter-zasov::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-16-zasov.png');
+}
+
+body.chapter-coda::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-17-coda.png');
+}
+
+/* Orbit chapters */
+body.chapter-hawala::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-18-hawala.png');
+}
+
+body.chapter-karina::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-19-karina.png');
+}
+
+body.chapter-vienna::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-20-vienna.png');
+}
+
+body.chapter-archive::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-21-archive.png');
+}
+
+body.chapter-tzilya::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-22-tzilya.png');
+}
+
+body.chapter-tarik::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-23-tarik.png');
+}
+
+body.chapter-lot47::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-24-lot47.png');
+}
+
+body.chapter-madam-lin::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-25-madam-lin.png');
+}
+
+/* Cover for index pages */
+body.cover-page::before {
+    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-00-cover.png');
+}
+
+/* Content container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* Headers */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--amber-warm);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    letter-spacing: 0.05em;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 2rem 0 1rem;
+    color: var(--amber-warm);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+h3 {
+    font-size: 1.3rem;
+    margin: 1.5rem 0 0.5rem;
+    color: var(--blue-cold);
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 1.2rem;
+    text-indent: 2em;
+    text-align: justify;
+    color: var(--noir-light);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+p:first-of-type {
+    text-indent: 0;
+}
+
+/* Links */
+a {
+    color: var(--amber-warm);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+a:hover {
+    color: var(--blue-cold);
+    border-bottom-color: var(--blue-cold);
+}
+
+/* Navigation */
+.nav {
+    margin: 3rem 0;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.7);
+    border-left: 4px solid var(--amber-warm);
+}
+
+.nav a {
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 1.1rem;
+}
+
+/* Special text colors for specific atmospheres */
+body.chapter-karakul,
+body.chapter-mundshtuk,
+body.chapter-dossier {
+    /* Warm amber chapters (Margo's salon) */
+    color: #f5e6d3;
+}
+
+body.chapter-sito,
+body.chapter-secret-court {
+    /* Green tech chapters */
+    color: #e0f0e0;
+}
+
+body.chapter-shulyavka,
+body.chapter-archive {
+    /* Cold intellectual chapters */
+    color: #e8e8f0;
+}
+
+/* Blockquotes */
+blockquote {
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    border-left: 4px solid var(--amber-warm);
+    background: rgba(0, 0, 0, 0.6);
+    font-style: italic;
+}
+
+/* Footer */
+.footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(212, 165, 116, 0.3);
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgba(245, 245, 245, 0.7);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 2rem 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+}
