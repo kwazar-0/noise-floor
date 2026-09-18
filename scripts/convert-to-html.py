@@ -73,7 +73,18 @@ def create_html_page(
 ) -> str:
     """Create full HTML page with navigation"""
     
-    css_path = "../style.css" if tome_num == 0 else "../../style.css"
+    if tome_num == 0:
+        css_path = "style-with-illustrations.css"
+        body_class = "cover-page"
+    elif tome_num == 1:
+        css_path = "../style-with-illustrations.css"
+        body_class = "cover-page"
+    elif tome_num == 2:
+        css_path = "../style-with-illustrations.css"
+        body_class = "tom2-page"
+    else:
+        css_path = "../style-with-illustrations.css"
+        body_class = "tom3-page"
     
     nav_links = []
     if prev_link:
@@ -92,7 +103,7 @@ def create_html_page(
     <title>{title} — {tome_name}</title>
     <link rel="stylesheet" href="{css_path}">
 </head>
-<body>
+<body class="{body_class}">
     <p>{navigation}</p>
 
     <article>

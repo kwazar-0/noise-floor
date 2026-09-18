@@ -161,6 +161,16 @@ body.cover-page {
     background-image: url('assets/illustrations/tom1-v2/tom1-v2-00-cover.png');
 }
 
+body.tom2-page {
+    background-image: url('assets/illustrations/tom2/tom2-cover.png');
+    color: #e0f0e0;
+}
+
+body.tom3-page {
+    background-image: url('assets/illustrations/tom3/tom3-cover.png');
+    color: #dce6f0;
+}
+
 /* Content container */
 .container {
     max-width: 800px;
@@ -207,8 +217,59 @@ p {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
 }
 
-p:first-of-type {
+p:first-of-type,
+.metadata,
+.voice-label,
+.nav-section p,
+body > p {
     text-indent: 0;
+    text-align: left;
+}
+
+.metadata {
+    font-size: 0.9rem;
+    color: rgba(245, 245, 245, 0.7);
+    font-style: italic;
+}
+
+.voice-label {
+    font-weight: 600;
+    color: var(--amber-warm);
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-section {
+    background: rgba(0, 0, 0, 0.62);
+    border: 1px solid rgba(212, 165, 116, 0.25);
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.nav-links li {
+    margin: 0.5rem 0;
+    padding-left: 1rem;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgba(212, 165, 116, 0.3);
+    margin: 2rem 0;
+}
+
+code {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.2rem 0.5rem;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
 }
 
 /* Links */
