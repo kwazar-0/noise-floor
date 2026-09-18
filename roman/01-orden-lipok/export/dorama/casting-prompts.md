@@ -1,5 +1,15 @@
 # Кастинг — AI Generation Prompts
 
+Лица канона: `assets/bible/README.md` + `assets/references/characters/`.  
+Этот файл — черновик 17 сентября. Если спорит с библией — библия.
+
+**Марго: 42–45, `ref-character-margo-v2-aristocratic`.** Не 38.  
+**Софья: 52–58, `ref-character-sofya-v2-british`.** Не 70, не tribal.  
+**Вчитель: только силуэт.**  
+**Ципао: Лінь.**
+
+---
+
 Промпты для генерации персонажей (AI-дорама) или референсов для реального кастинга.
 
 **Стиль**: photorealistic, cinematic lighting, 1990s period drama aesthetic, Eastern European faces, natural no-makeup looks for realism.
@@ -38,7 +48,7 @@ Cinematic portrait: young Eastern European woman age 20, shoulder-length dark br
 ### Марго
 
 **Характеристики**:
-- Возраст: 38–42
+- Возраст: 42–45
 - Национальность: русская, возможно с балетным прошлым
 - Внешность: классическая увядающая красота, строгая элегантность, тяжёлые веки
 - Манеры: балетная осанка, контролирует каждый жест

@@ -1,5 +1,10 @@
 # Production Design — Орден Липок
 
+**Библия интерьеров и пропов:** `assets/bible/README.md`.  
+Номера эпизодов — `series-structure.md` (эп. 1 = общага, не ячейка). Ниже — тон и фактура; где написано «Episode 1 = ячейка», считать устаревшим.
+
+---
+
 Гид по визуальному стилю, локациям, костюмам, реквизиту для сериала.
 
 ---
@@ -24,10 +29,15 @@
 
 ## Локации
 
-### ACT I: Вербовка (Episodes 1–2)
+### ACT I: Вербовка (Episodes 1–3)
 
-#### Ячейка (Episode 1)
-**Set**: Converted apartment, ~25m², worn Soviet interior
+#### Общага (Episode 1)
+**Set / ref:** `ref-interior-dorm-glava01.png`  
+Две кровати, трубка, лак, зошит. **Не** ряд матрацев.
+
+#### Ячейка (Episode 2)
+**Set / ref:** `ref-interior-cult-cell.png`  
+Матрасы, лампа за матом, ватман. Было ошибочно размечено как эп. 1.
 
 **Design elements**:
 - Thin mattresses on floor in rows (10–12 mattresses)
@@ -455,7 +465,7 @@
 ## Реквизит (Hero Props)
 
 **Must-have close-up props**:
-1. **Капсула** (transparent, filled с безопасным material) — Episode 1, recurring
+1. **Капсула** — Episode 2–3, recurring
 2. **Монета Инженера** (с вязью, real metal, spinnable) — Episodes 4, 10, 15, 25
 3. **Студенческий ID** — Episode 1
 4. **Досье folders** — Episodes 5, 6, 12, 13, 17

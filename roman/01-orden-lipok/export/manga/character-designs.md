@@ -1,219 +1,162 @@
-# Дизайн персонажей — манга
+# Дизайн персонажей — манга. Том 01
 
-Стиль: реалистичная манга, seinen aesthetic, noir/psychological thriller влияние (Monster, 20th Century Boys, Gunslinger Girl раннего периода). Избегать anime-cute, держать grounded Eastern European faces.
+Стиль: seinen, grounded Eastern European faces. Urasawa / Taniguchi. Не anime-cute.
+
+**Канон внешности** — паспорта `setings/geroy-psihotip/` + листы `assets/references/characters/`. Старые промпты пакета (Марго 38, Софья 70, tribal brooch) сняты.
 
 ---
 
-## Главные персонажи
+## Оля (Олена Петрівна)
 
-### Оля (Олена Петрівна)
-**Возраст**: 20–21 (1992–93)  
-**Роль**: протагонист, камера, фильтр
+**Возраст в томе 01**: 19–20 (1992–93).  
+**Роль**: протагонист, камера ядра.
 
-**Внешность**:
-- Лицо: славянское, овальное, без декоративной красоты; умные уставшие глаза, прямой взгляд
-- Волосы: тёмно-русые, длина до плеч, часто небрежно собраны или распущены
-- Рост: средний (165 см)
-- Телосложение: худощавая, студенческая (недоедание)
-- Руки: тонкие пальцы, держат предметы как улики
+**Тело**: рост ~168. Сначала сутуль. Скулы широкие, «вінницькі». Глаза светло-карие / серо-зелёные — не визитка; после культа взгляд иногда мимо рта. Волосы: гидроперит, солома, тёмные корни. После среза — череп хрупкий. Потом дорогая стрижка как шлем. Недоедание, не диета.
 
-**Одежда по актам**:
-- Акт I (ячейка): общажная кофта oversize, дырявые носки, пуховик студенческий
-- Акт II–III (салон): заимствованное у Марго (бархат не по фигуре, чулки, каблук, с которым не дружит)
-- Акт IV (кода): босиком на паркете, халат, волосы распущены
-- Орбита: нейтральное пальто, серое, «забывается»
+### Стадии (не смешивать в одном акте)
 
-**Ключевые выражения**:
-- Бессонница (веки, тёмные круги)
-- Следствие (прищур при чтении документов)
-- Ожидание (плечи опущены, руки держат вес)
+| Стадия | Главы | Файл |
+|---|---|---|
+| 1. Студентка | 1–4 | `ref-olya-01-student.png` |
+| 2. Адептка культа | 2–3 (5 ночей, **не** лагерь смерти) | `ref-olya-02-cult-adept.png` |
+| 3. Начало у Марго | 5, 7–8 | `ref-olya-03-training-start.png` |
+| 4. «Донечка» ВП | 14, 16 | `ref-olya-04-vp-daughter.png` |
+| 5. Референт | 14+ | `ref-olya-05-government-referent.png` |
+| 6. Бизнес-леди, этничное couture | **не том 01** (том 02) | `ref-olya-06-businesswoman.png` |
+
+**Одежда тома 01**: китайский пуховик грязно-бежевый, крючок дешёвый; общажный свитер; стоптанные полусапожки → чужое винное платье не по фигуре → короткая норка, кожаная мини, ботфорты как чужие лыжи, тёмные очки. Якорь: студенческий в подкладке.
+
+**Manga prompt (стадия 1)**:
+```
+Character sheet: 19-year-old Eastern European woman, wide provincial cheekbones, peroxide-damaged straw hair dark roots, exhausted light-brown eyes, thin from undernourishment not diet, oversized dorm sweater, dirty beige Chinese puffer missing a button, realistic seinen manga turnaround, Monster aesthetic --style raw
+```
+
+---
+
+## Марго (Маргарита Львовна)
+
+**Возраст**: 42–45. Антикварная вещь, за которой ухаживали. Не 38 и не «молодая вторая женщина».  
+**Референс**: `ref-character-margo-v2-aristocratic.png`  
+**Рост**: 174. Балет. Иссиня-чёрные волосы, **серебряная прядь у правого виска**. Тёмно-карие ленивые глаза. Бордовые губы. Костяной мундштук. Запах: амбра, кожа, горький табак / *Magie Noire*.
+
+**Одежда**: бархат / шёлк в пол (вино, изумруд, уголь). Каракуль — вход в ДК. Антресоли: чёрное трико, босые стопы, жила на подъёме.  
+**Никогда ципао** (это Линь).
 
 **Manga prompt**:
 ```
-Character design sheet: young Eastern European woman age 20, shoulder-length dark brown hair, intelligent exhausted eyes, oval Slavic face, thin frame from undernourishment, multiple views (front/side/three-quarter), wearing oversized dorm sweater and later borrowed elegant dress that doesn't fit quite right, psychological seinen manga style, realistic proportions, Monster/20th Century Boys aesthetic, character turnaround --niji 6 --style raw
+Character sheet: aristocratic Eastern European woman 43, museum skin, high cheekbones, heavy lids, blue-black hair with silver strand at right temple, 174cm ballet posture, dark velvet gown or silk robe, bone cigarette holder, no qipao, mature beauty not youthful, seinen realistic --style raw
 ```
 
 ---
 
-### Марго
-**Возраст**: 38–42  
-**Роль**: мастер, хозяйка салона, бывшая гетера
+## Софья Карловна
 
-**Внешность**:
-- Лицо: классическая красота, уже отточенная и уставшая; высокие скулы, тяжёлые веки
-- Волосы: тёмные, прядь справа (signature gesture)
-- Рост: выше среднего (172 см)
-- Телосложение: балетная стойка, жила на стопе видна, плечи держит
-- Руки: длинные пальцы, держат мундштук как инструмент
+**Возраст**: 52–58. Полковник, вычеркнутый из списков. Не 68–72.  
+**Референс**: `ref-character-sofya-v2-british.png` + кабинет `ref-interior-sofya-study-v2.png`  
+Отчество **Карловна**. Польская кость, коминтерновский аскетизм.
 
-**Одежда**:
-- В салоне: тёмные платья (бордо, чёрный), бархат, жемчуг, халат шёлковый
-- Стойка: чёрное трико, босиком, масло на коже
-- Никогда ципао (это Линь)
-
-**Ключевые выражения**:
-- Дым кольцом (не закрывается)
-- Прядь поправить (жест обучения)
-- Взгляд мимо гостя (оценка)
+Сухое лицо, тонкие губы без помады Марго, серые глаза-учёт, жемчуг. Седая укладка назад.  
+**Костюм**: серая английская тройка, шёлковая блузка. Брошь межвоенная / камея — на **подкладке** лацкана, не «tribal» на грудь. Халат запрещён.
 
 **Manga prompt**:
 ```
-Character design sheet: elegant Eastern European woman age 40, classical worn beauty, dark hair with signature strand falling right, ballet posture, tall graceful frame, heavy-lidded calculating eyes, wearing dark velvet dress or silk robe, holding cigarette holder, multiple views, psychological seinen manga, realistic mature woman design, femme fatale aesthetic without sexualization --niji 6 --style raw
+Character sheet: Eastern European woman 55, severe intellectual face, gray hair pulled back, gray evaluating eyes, British three-piece grey suit, pearl necklace, cameo brooch on lapel lining not tribal jewelry, upright colonel posture, pouring tea, seinen realistic --style raw
 ```
 
 ---
 
-### Инженер (Марат)
-**Возраст**: 33–35  
-**Роль**: технический ум машины, морально сломленный
+## Инженер (Марат)
 
-**Внешность**:
-- Лицо: утомлённое техническое, щетина забытая, мелкие морщины от мониторов
-- Волосы: тёмные, взъерошенные, немытые
-- Глаза: щурится даже без света, красные веки
-- Рост: средний (175 см), сутулится
-- Телосложение: худощавый, плохо ест
+**Возраст**: 33–35.  
+**Референс**: `ref-character-engineer.png`
 
-**Одежда**:
-- Свитер рабочий, джинсы, кроссовки worn
-- Куртка не по сезону (орбита)
-- Никогда костюм
+Утомлённое техническое лицо, щетина, красные веки от CRT, сутуль, свитер, джинсы. Никогда костюм.  
+Жест: монета с вязью (царская). Смотрит в монитор, не в глаза. Кивает, когда цифра сошлась.
 
-**Жесты**:
-- Крутит монету с вязью (nervous habit)
-- Смотрит в монитор, не в глаза
-- Кивает когда цифра сошлась, не когда человек говорит
-
-**Manga prompt**:
 ```
-Character design sheet: Eastern European man age 34, technical exhausted face, unkempt dark hair, squinting red-rimmed eyes, unshaven, thin frame from poor eating, slouched posture, wearing worn sweater and jeans, spinning coin with script in fingers, multiple views, working at CRT monitor, psychological seinen manga, Monster aesthetic, haunted IT worker 1990s --niji 6 --style raw
+Character sheet: man 34 Eastern European, unkempt dark hair, red-rimmed squinting eyes, unshaven, thin, slouched, worn sweater, spinning old coin with Slavic script, CRT green phosphor, 1990s IT basement, seinen --style raw
 ```
 
 ---
 
-### Софья Карловна
-**Возраст**: 68–72  
-**Роль**: архитектор, теневой институт
+## Варяг (Владимир)
 
-**Внешность**:
-- Лицо: интеллектуальное старение, строгое, нос прямой, губы тонкие
-- Волосы: седые, уложены назад строго
-- Глаза: холодные, оценивают иерархию
-- Рост: средний, держит спину
-- Руки: старые, но твёрдые; носит брошь племенную
-
-**Одежда**:
-- Строгий костюм (пиджак, юбка), брошь на лацкане
-- Никогда домашнее
-- Цвета: серый, тёмно-синий
-
-**Ключевые выражения**:
-- Прищур (читает ложь)
-- Пауза перед фразой (холодный нож)
-- Чай наливает так, что брошь видна
-
-**Manga prompt**:
-```
-Character design sheet: elderly Eastern European woman age 70, severe intellectual face, gray hair pulled back, cold evaluating eyes, upright posture, wearing formal suit with tribal brooch on lapel, stern matriarch, multiple views, pouring tea with calculated precision, psychological seinen manga, realistic aging, authority without warmth --niji 6 --style raw
-```
+**Возраст**: 45–50. Логистика, периметр.  
+Обветренное лицо, седина на висках, рабочие руки, мазут. Utility vest, кирза. Стул к двери. Коньяк не залпом. Карта — ритуал.
 
 ---
 
-### Варяг (Владимир)
-**Возраст**: 45–50  
-**Роль**: логистика, совесть машины
+## Вчитель культа
 
-**Внешность**:
-- Лицо: обветренное, шрамы мелкие, квадратная челюсть
-- Волосы: короткие, седина на висках
-- Глаза: без иллюзий
-- Рост: средний, плечи широкие
-- Руки: рабочие, мазут под ногтями
-
-**Одежда**:
-- Utility vest, рабочая куртка
-- Ботинки, кирза
-- Всё worn, ничего нового
-
-**Жесты**:
-- Стул к двери (всегда)
-- Коньяк не залпом
-- Поправляет карту (ритуал)
-
-**Manga prompt**:
-```
-Character design sheet: Eastern European man age 48, weathered square face, short graying hair, disillusioned eyes, broad shoulders, worker's hands with oil under nails, wearing utility vest and work boots, sitting with chair blocking door, holding cognac glass, multiple views, psychological seinen manga, working-class vigilance, post-Soviet realism --niji 6 --style raw
-```
+**Лица крупно нет** во всём томе 01. Силуэт, затылок, кисти, серый пиджак НИИ, пыльный носок, запах табака и хлорки. Баритон. Не ряса, не гуру.  
+Паспорт: `setings/geroy-psihotip/uchitel-kult.md`.
 
 ---
 
-## Второстепенные персонажи
+## Ніна
 
-### Полина
-**Возраст**: 28–30  
-**Описание**: референтка, столичная красота, идеальный макияж, жемчуг ученицы, ревнует профессионально  
-**Prompt**: `elegant secretary age 29, perfect makeup, pearl necklace, jealous professional composure, Kyiv 1992 uptown style`
+**Возраст**: 45–50. Вінниччина.  
+**Референс**: `ref-character-nina.png`
 
-### Виктор Павлович
-**Возраст**: 52–55  
-**Описание**: зам. АПК, пиджак пузырится, уши краснеют, держит дочь мёртвой в молчании, сын живой младше  
-**Prompt**: `Ukrainian bureaucrat age 54, rumpled suit jacket, ears reddening, grief held silent, father of dead daughter and younger son`
-
-### Нина (мать)
-**Возраст**: 47–50  
-**Описание**: тревожная мать, фартук, «що люди скажуть», руки от борща  
-**Prompt**: `anxious Ukrainian mother age 49, apron, worried hands, kitchen matriarch, "what will people say" anxiety`
-
-### Петро (отец)
-**Возраст**: 50–53  
-**Описание**: рабочий свитер, бреется под радио, поёт Скрябіна громко, гудок раз в неделю  
-**Prompt**: `Ukrainian working-class father age 51, worn sweater, shaving to radio, singing folk-rock too loud, weekly phone call`
-
-### Седой
-**Возраст**: 40–45  
-**Описание**: гаражи, кожанка, сигарета тлеет, шрам у губы, вербовщик среднего звена  
-**Prompt**: `garage recruiter age 43, leather jacket, cigarette smoldering, small scar near lip, mid-level fixer`
-
-### Архивариус
-**Возраст**: 50–52  
-**Описание**: дырокол, нарукавники, палец жёлтый от копирки, не смотрит в глаза  
-**Prompt**: `archivist age 51, sleeve protectors, yellow finger from carbon paper, avoids eye contact, hole punch ritual`
-
-### Циля
-**Возраст**: 75–80  
-**Описание**: часовщица Яффо, дрожат только руки (возраст), лупа, кардамон, «старая сука переживёт парламент»  
-**Prompt**: `elderly Jewish watchmaker age 78, Tel Aviv workshop, jeweler's loupe, hands trembling only from age, cardigan and cardamom`
-
-### Мадам Линь
-**Возраст**: неопределённый (55–65?)  
-**Описание**: чайный дом Гонконг, ципао сапфировое, гайвань, веки опущены, руки мастера  
-**Prompt**: `Hong Kong tea master, ageless elegant woman, sapphire qipao, gaiwan ceremony, lowered eyelids, master's hands, 1990s colony era`
-
-### Карина
-**Возраст**: 26–28  
-**Описание**: переводчица → легенда, Босфор, академическая скромность, становится другой  
-**Prompt**: `translator becoming legend, age 27, academic modesty, Istanbul Bosphorus, transformation from person to cover identity`
-
-### Тарик
-**Возраст**: 23–25  
-**Описание**: скучающий сын, хорошая кожа, сигарета, конспект презирает, львицы утомили  
-**Prompt**: `bored rich son age 24, good skin, cigarette, dismissive of notebook, tired of lionesses, Istanbul economics student`
+Ниже Оли на голову, шире в кости. Халат в цветочек, пояс ниже талии, тапки, шерстяные носки. Руки красные, трещины. «Що люди скажуть».  
+Кухня: щи / картопля з цибулею, **не** борщ как логотип. Запах щей, угольной пыли, хозяйственного мыла.
 
 ---
 
-## Технические ноты для мангаки
+## Петро
 
-- **Пропорции**: реалистичные, не anime; головы 7–8 голов в росте
-- **Глаза**: не огромные; европейские пропорции
-- **Руки**: выразительные, часто в кадре (держат документы, чашки, капсулу)
-- **Позы**: статичные момент перед действием, напряжение в плечах
-- **Текстуры**: ткань (бархат, wool, шёлк), дерево, бетон, жидкости (чай, дождь)
+**Возраст**: 50–53. Рабочий свитер, бритва под радио, Скрябін слишком громко. Гудок раз в неделю. Песня — полный текст один раз, дальше цена.
 
-## Референсы стиля персонажей
+---
 
-- **Naoki Urasawa** (Monster, 20th Century Boys) — реализм лиц, психологическая глубина
-- **Tsutomu Nihei** ранний (Blame!) — архитектура, но лица более человечные
-- **Jiro Taniguchi** — взрослые персонажи, европейская эстетика
-- **Koike/Kojima** (Lone Wolf and Cub) — серьёзность, взгляд как оружие
+## Седой
 
-Избегать: moe, fanservice, чиби, sparkle eyes, giant breasts, цветные волосы (кроме седины).
+**Возраст**: 40–45. Кожанка, щетина, шрам у губы, сигарета, сетка с банками, стёртая каблучка. Загонщик, не благодетель. Главы 3–4, имя в гримёрке.
+
+---
+
+## Іса и Саня (гл. 5, одна-две сцены)
+
+**Іса**: 30+, сухой, шрам у брови, сложенный папірець, «борг є борг». Не кавказский цирк, не золотой рот.  
+**Саня**: выше, золотой зуб вспышкой, дешёвый кожак, одеколон поверх папиросы, занимает воздух и проигрывает его.
+
+---
+
+## Артур (Киев, гл. 8)
+
+Не Arthur Vance тома 03. Здесь: ~40, сухое лицо, очки в тонкой оправе, серый костюм без галстука, пальцы сложены. Смотрит на Олю как на строку. Три листа договора. Перьевая ручка.
+
+---
+
+## Полина
+
+28–30. Столичная, нитка бровей, жемчуг ученицы, каблук без хромоты. Ревность профессиональная. Жест пряди — краденый у Марго.
+
+---
+
+## Виктор Павлович
+
+52–55. Пиджак пузырится, уши краснеют. Дочь: была, маленькая, не выросла. Сын живой младше. Дача: `ref-interior-viktor-dacha-*`.  
+Референс лица: `ref-character-viktor-pavlovich.png`.
+
+---
+
+## Орбита (не ядро)
+
+| Имя | Возраст | Якорь | Глава |
+|---|---|---|---|
+| Карина | 26–28 | переводчица → легенда, Босфор | 21, 23, 24 |
+| Инна | ~30 | серое пальто, очки, Вена | 22 |
+| Циля | 75–80 | лупа, Яффо, кардамон | 24 |
+| Тарик | 23–25 | скука, кашемир, львицы | 25 |
+| Халид | ~40 | Zegna, груша 47 ct | 26 |
+| Мадам Линь | 55–65? | **ципао сапфир**, гайвань | 27 |
+
+---
+
+## Технические ноты
+
+- Пропорции 7–8 голов. Глаза европейские.
+- Руки в кадре чаще лиц-лозунгов.
+- Текстуры: бархат, пуховик, бетон, лак, воск.
+- Избегать: moe, fanservice, чиби, цветные волосы кроме седины и пряди Марго.

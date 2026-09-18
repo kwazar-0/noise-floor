@@ -54,7 +54,8 @@ h1, h2, h3 {
 
 /* Page-specific backgrounds — paths relative to this CSS file (docs/) */
 body.chapter-cell {
-    background-image: url('assets/illustrations/tom1-v2/tom1-v2-01-cell.png');
+    /* гл. 2 — гурток / ячейка, не барак */
+    background-image: url('assets/references/interiors/ref-interior-cult-cell-club.png');
 }
 
 body.character-nina {
@@ -74,7 +75,8 @@ body.chapter-karakul {
 }
 
 body.chapter-dossier {
-    background-image: url('assets/illustrations/tom1-v2/tom1-v2-05-dossier.png');
+    /* гл. 7 — стійка на світанку, без титра Chapter 5 */
+    background-image: url('assets/references/interiors/ref-interior-training-dawn.png');
 }
 
 body.chapter-empty-place {
@@ -82,11 +84,13 @@ body.chapter-empty-place {
 }
 
 body.chapter-dekanat {
-    background-image: url('assets/illustrations/kyiv-night/kyiv-night-knu.png');
+    /* гл. 9 — кабінет Ірини Петрівни, не нічний КНУ і не відділ кадрів */
+    background-image: url('assets/references/interiors/ref-interior-dekanat.png');
 }
 
 body.chapter-cafe {
-    background-image: url('assets/illustrations/tom1-v2/tom1-v2-08-cafe-committee.png');
+    /* гл. 10 — кухня Ніни, не кафе комітету */
+    background-image: url('assets/references/interiors/ref-interior-soviet-kitchen.png');
 }
 
 body.chapter-garages {
@@ -102,7 +106,8 @@ body.chapter-shulyavka {
 }
 
 body.chapter-grushevskogo {
-    background-image: url('assets/illustrations/kyiv-night/kyiv-night-cabinet-ministers.png');
+    /* гл. 14 — коридор приймальні, не чужий «капітолій» */
+    background-image: url('assets/references/interiors/ref-interior-government-corridor.png');
 }
 
 body.chapter-mundshtuk {
@@ -110,7 +115,8 @@ body.chapter-mundshtuk {
 }
 
 body.chapter-koncha {
-    background-image: url('assets/illustrations/tom1-v2/tom1-v2-14-koncha.png');
+    /* гл. 16 вузол: дача / Конча, не книга народжень Дніпропетровська */
+    background-image: url('assets/references/interiors/ref-interior-viktor-dacha-terrace.png');
 }
 
 body.chapter-secret-court {
@@ -126,7 +132,8 @@ body.chapter-coda {
 }
 
 body.chapter-hawala {
-    background-image: url('assets/illustrations/tom1-v2/tom1-v2-18-hawala.png');
+    /* гл. 20 — царська монета в СІТО, не лавка в порту */
+    background-image: url('assets/references/props/ref-prop-coin.png');
 }
 
 body.chapter-karina {
@@ -155,6 +162,20 @@ body.chapter-lot47 {
 
 body.chapter-madam-lin {
     background-image: url('assets/illustrations/tom1-v2/tom1-v2-25-madam-lin.png');
+}
+
+body.chapter-contract {
+    background-image: url('assets/references/props/ref-prop-contract-three-sheets.png');
+}
+
+body.chapter-capsule {
+    /* гл. 3 — кулак / капсула, не повтор ряду гл. 2 */
+    background-image: url('assets/references/props/ref-prop-capsule-fist.png');
+}
+
+body.chapter-sacher {
+    /* епілог — Відень, «Захер», не химери Банкової */
+    background-image: url('assets/references/interiors/ref-interior-sacher.png');
 }
 
 body.cover-page {

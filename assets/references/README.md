@@ -1,5 +1,11 @@
 # Reference Library — Manhattan Cabal / Орден Липок
 
+**Производство:** `assets/bible/README.md` (фаза A).  
+**Lock:** `roman/01-orden-lipok/CANON-LOCK.md`.  
+Этот README — архив генерации v2. Новые лица/пропы/общага — в тех же папках `characters/`, `interiors/`, плюс `props/`. Стадии Оли 1–5 и запрет стадии 6: `assets/bible/lookbook-olya.md`.
+
+Не использовать `_deprecated`. Софья = `ref-character-sofya-v2-british.png` (не 70 лет). Марго = `ref-character-margo-v2-aristocratic.png`. Ячейка ≠ глава 1.
+
 **Призначення:** Бібліотеки персонажів і інтер'єрів для підтримки візуальної consistency в ілюстраціях, адаптаціях (manga, dorama) та майбутніх генераціях.
 
 **Створено:** 18 вересня 2026  

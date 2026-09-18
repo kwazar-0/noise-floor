@@ -1,360 +1,165 @@
-# Локации — референсы для манги
+# Локации — референсы для манги. Том 01
 
-Стиль: реалистичная архитектура 1990s Eastern Europe/Asia, избегать clean anime backgrounds, держать lived-in texture.
+Номера глав = **имена файлов** `glava-NN.md`, не старые титулы внутри файлов и не пакет 25 глав.
+
+Стиль: 1990s Eastern Europe, lived-in. Интерьеры канона: `assets/references/interiors/`.
 
 ---
 
 ## Киев 1992–1993
 
-### Ячейка (Глава 1)
-**Описание**: Переоборудованная квартира в спальный район Киева, комната ~25м²  
-**Детали**:
-- Матрасы тонкие на полу рядами
-- Клеёнка на столе у стены
-- Гранёные стаканы советские
-- Батарея чугунная под окном
-- Лампа за матовым стеклом на полу
-- Ватман «мысль материальна» на стене
-- Бельё на струне во дворе (вид из окна)
-- Линолеум стёртый
+### Общага (Глава 1)
+Комната на двоих. Две кровати, зошит, пуховик, флакон лака, гранёные склянки чая. Коридор: жёлтый свет, чужая кассета. Телефон на шнуре в нише / на тумбе.  
+**Не** ячейка: нет ряда матрацев.
 
-**Manga prompt**:
 ```
-Soviet-era apartment converted to meditation cell, thin mattresses in rows on worn linoleum floor, single frosted bulb on floor, chipped radiator, oilcloth-covered table, poster with motivational Cyrillic text, laundry hanging outside window, cramped institutional space, 1992 Kyiv, realistic manga background --niji 6
+Soviet student dormitory room for two, 1992 Kyiv, nail polish bottle, rotary phone, notebook with crossed-out lines, beige puffer on chair, yellow corridor light, worn linoleum, realistic manga background
 ```
 
 ---
 
-### ДК — Дворец культуры (Главы 2–3)
-**Описание**: Советский культурный центр, backstage area  
-**Детали**:
-- Колонны у входа
-- Гримёрка: зеркала с лампами, костюмы на вешалке
-- Чёрный ход
-- За сценой: верёвки, декорации
-- Паркет в зале
-- Высокие потолки
+### Ячейка на Подоле (Главы 2–3)
+`ref-interior-cult-cell.png`  
+~25 м². Матрасы рядами, клеёнка, гранёные стаканы, чугунная батарея, лампа за матовым стеклом на полу, ватман «МЫСЛЬ МАТЕРИАЛЬНА», бельё на струне во дворе, огурцы на подоконнике, цвях для пуховика.
 
-**Manga prompt**:
+**Не** Орден. Днём кружок, ночью ряд.
+
 ```
-Soviet cultural center backstage, dressing room with mirror lights and hanging costumes, columns at entrance, high ceilings, worn parquet floors, theatrical clutter, 1992 Kyiv architecture --niji 6
+Soviet apartment converted to cult cell, thin mattresses in rows, frosted bulb on floor, chipped radiator, oilcloth table, Cyrillic poster, laundry outside, 1992 Podil Kyiv
 ```
 
 ---
 
-### Салон Липок (Главы 4–17)
-**Описание**: Буржуазная киевская квартира, Липки район  
-**Детали**:
+### Улица / москвич (Главы 3–4)
+Дождь, каштаны, трамвайный провод, козырёк остановки. «Москвич» цвета грязи, трещина в лобовом, лук-бензин-клеёнка, кирпич-телефон в дверце. Хоздвор ДК: хвіртка, бочки, «не курити» зачёркнуто, пианино из кватирки.
 
-**Зал**:
-- Паркет с воском
-- Хрустальная люстра
-- Бархатные портьеры тёмные
-- Антикварная мебель
-- Жако (African Grey parrot) в латунной клетке
-- Винил-проигрыватель
-- Абажур торшера (янтарный свет)
-- Карта мира на стене (ch13)
+---
 
-**Антресоли** (комната Оли):
-- Скат крыши
-- Узкая кровать
-- Стол у окна
-- Балетная стойка
-- Масло для кожи
+### ДК — гримёрка (Глава 5)
+`не парадный зал`  
+Фанера, трельяж с пятном амальгамы, рожева пудра, халат артиста, «Прима», калюжа від парасольки якої нема. Спиной к двери. Каракуль Марго входит в зеркало раньше лица.
 
-**Тамбур**:
-- Плитка, капает
-- Вешалка для каракуля
-- Дверь дубовая наружу
-
-**Кухня**:
-- Стойка
-- Фарфор с синей каймой
-- Чай, мундштук
-
-**Manga prompt (зал)**:
 ```
-Elegant Kyiv apartment salon: waxed parquet floor reflecting amber chandelier light, dark velvet curtains, antique furniture, African Grey parrot in brass cage, vinyl record player, baroque atmosphere, 1990s post-Soviet bourgeois interior --niji 6
+Soviet palace of culture dressing room, plywood door, cracked makeup mirror with bulbs, artist robe, cigarette, yellow institutional light, 1992 Kyiv backstage
 ```
 
 ---
 
-### СИТО — подвал (Главы 10, 15)
-**Описание**: Basement computer center на левом берегу, под фальшивой «котельной»  
-**Детали**:
-- Спуск бетонный, конденсат
-- Низкий зал
-- Ряды IBM-compatible PC с CRT мониторами
-- Зелёный фосфор свет
-- Кулеры шумят (cooling fans)
-- Кабели в скобах
-- Времянка с сырым сукном
-- Матричный принтер
-- Карта на стене с флажками
-- Стол Инженера: монета, чай с плёнкой, паяльник
-- Стул Варяга к двери
-- Озон и металлический запах
+### Салон Липок (Главы 6–8, 15, 18–19)
+`ref-interior-salon-margo-wide.png`, `ref-interior-salon-margo-v2.png`  
+Паркет с воском, хрусталь, бархатные портьеры, жако в латунной клетке, винил, янтарный абажур.
 
-**Manga prompt**:
+**Антресоли / стойка**: `ref-interior-margo-training-perfect.png`, `ref-interior-margo-yoga-perfect.png` — трико, масло, балетная жердь, не зал для гостей.
+
+**Кабинет контракта (гл. 8)**: дубовый стол, зелёный абажур, три листа, копирка. Не бархатный зал.
+
 ```
-Underground 1990s computer basement: rows of CRT monitors casting green phosphor glow, cooling fans, exposed cables in brackets, condensation on concrete walls, wall map with pushpin flags, matted printer, industrial pipes, cold technical noir space, Kyiv left bank --niji 6
+Elegant Kyiv Lipky salon, waxed parquet, amber chandelier, dark velvet, African Grey in brass cage, vinyl, 1990s bourgeois interior
 ```
 
 ---
 
-### Квартира семьи (Глава 6)
-**Описание**: Типичная советская квартира, кухня ~8м²  
-**Детали**:
-- Клеёнка на столе
-- Борщ в миске
-- Пампушки на доске
-- Лампочка одна висит
-- Линолеум
-- Тонкие стены (слышна соседская кастрюля)
-- Пустое место за столом
+### Кухня семьи / райцентр (Глава 10)
+`ref-interior-soviet-kitchen.png`  
+Печь, клеёнка, щи / жареная картопля з цибулею — **не борщ как бренд**. Календарь с трактором, школьное фото в бантах, халат Ніни, сорочка Петра на спинке. Потом — тихая квартира экономки у правительственного квартала, халат тот же, клеёнка уже гладкая.
 
-**Manga prompt**:
 ```
-Soviet-era kitchen: oilcloth table, bowl of borscht, hanging single bulb, linoleum floor, thin walls, cramped domestic space, empty chair at table, 1992 Ukrainian family home --niji 6
+1992 Ukrainian rayon kitchen, flower-print robe, oilcloth, fried potatoes and onions, wood stove, school photo, hanging bulb, not restaurant borscht
 ```
 
 ---
 
-### Деканат университета (Глава 7)
-**Описание**: Кабинет филфака  
-**Детали**:
-- Зелёные институционные стены
-- Дверь с матовым стеклом, кириллица
-- Стол бюрократа
-- Печать на углу
-- Каракуль (шапка) на столе
-- Флуоресцентный свет
+### Деканат (Глава 9)
+Зелёные стены, матовое стекло с кириллицей, печать, норка Оли в коридоре, флуоресцент. Каракуль / конверт.
 
-**Manga prompt**:
 ```
-Soviet university office: bureaucratic desk, official stamp, institutional green walls, frosted glass door with Cyrillic lettering, karakul fur hat on desk corner, fluorescent overhead light, 1992 Ukraine --niji 6
+Soviet university dean office, institutional green, frosted glass door Cyrillic, fluorescent light, fur coat too expensive for the corridor, 1992
 ```
 
 ---
 
-### Кафе (Глава 8)
-**Описание**: Киевское советское кафе  
-**Детали**:
-- Столики Formica
-- Алюминиевая кофейная турка
-- Телефон роторный на стене
-- Жёсткие стулья
-- Harsh overhead light
+### Гаражи (Глава 11)
+Бетонный бокс, мазут, голая лампа, «від Марго», коньяк не её.
 
-**Manga prompt**:
 ```
-Soviet-style café: Formica tables, aluminum coffee pot, rotary phone on wall, hard chairs, harsh overhead lighting, institutional walls, 1992 Kyiv public space --niji 6
+Kyiv garage cooperative 1992, oil stains, bare bulb, workbench, cigarette, envelope
 ```
 
 ---
 
-### Гаражи (Глава 9)
-**Описание**: Гаражный кооператив  
-**Детали**:
-- Бетонный бокс
-- Масляные пятна на полу
-- Голая лампа на шнуре
-- Инструменты на верстаке
-- Сигарета, конверт
+### СИТО — подвал (Главы 12, 17)
+`ref-interior-sito-basement.png`  
+Фальшивая котельная, левый берег. CRT, зелёный фосфор, кулеры, скобы кабеля, карта с флажками, монета, стул Варяга к двери. Гл. 12 — первый флажок. Гл. 17 — тайный суд, пауза на мыши.
 
-**Manga prompt**:
 ```
-Concrete garage bay: oil stains on floor, bare bulb on cord, tool workbench, cigarette smoke, envelope, cold industrial space, 1992 Kyiv underworld --niji 6
+1990s underground computer hall, CRT green phosphor, condensation on concrete, cooling fans, map with pin flags, Kyiv left bank
 ```
 
 ---
 
-### Шулявка — квартира Софьи (Главы 11, 21)
-**Описание**: Интеллигентская квартира  
-**Детали**:
-- Жалюзи режут свет полосами
-- Гобан (Go board) на низком столе
-- Камни белые в чаше
-- Холст без людей на стене
-- Пыль в щели жалюзи
-- Чай остывает
-- Вечный вечер
+### Шулявка — кабинет Софьи (Главы 13, 23)
+`ref-interior-sofya-study-v2.png`, `ref-interior-sofya-study-wide.png`  
+Английский кабинет: жалюзи, гобан, жемчуг, Брокгауз, зелёный абажур, вечный вечер. Не «эзотерика / ципао». Ципао — Гонконг.
 
-**Manga prompt**:
 ```
-Intellectual apartment: venetian blinds slicing light into stripes, Go board on low table, white stones in bowl, portrait-less canvas on wall, dust in slatted light, eternal evening atmosphere, 1992 Kyiv academic space --niji 6
+Intellectual Stalin-era apartment study, venetian blinds, Go board, green lamp, pearls, English grey suit atmosphere, no Chinese dress, 1992 Kyiv
 ```
 
 ---
 
-### Грушевського — коридор (Глава 12)
-**Описание**: Правительственное здание  
-**Детали**:
-- Мрамор потёртый
-- Латунные ручки дверей
-- Институционные зелёные стены
-- Кабинет депутата (дверь приоткрыта)
-- Лампа на столе
+### Грушевського (Главы 14, 16)
+`ref-interior-government-corridor.png`  
+Потёртый мрамор, латунь, машинка, гвоздики, папка раньше депутата. Віктор Павлович в пузырящемся пиджаке.
 
-**Manga prompt**:
 ```
-Government building corridor: worn marble floor, brass door handles, institutional green walls, Deputy's office door ajar showing desk lamp, bureaucratic Soviet architecture, 1992 Kyiv parliament district --niji 6
+1992 Kyiv government corridor, worn marble, brass handles, typewriter, wilted carnation, bureaucratic Soviet
 ```
 
 ---
 
-### Бокс Конча-Заспа (Глава 14)
-**Описание**: Контейнер / временный офис  
-**Детали**:
-- Переноска жёлтая (work light)
-- Папка на столу
-- Флажок без объяснения
-- Ключи
-- Кирза (boots)
-- Мазут запах
-- Тушёнка (canned meat)
+### Дача Віктора, Конча-Заспа
+`ref-interior-viktor-dacha-exterior.png`, `ref-interior-viktor-dacha-study.png`, `ref-interior-viktor-dacha-terrace.png`  
+Двухэтажная академическая дача, крытая терраса. Не контейнер «бокс» как главная картинка дома.
 
-**Manga prompt**:
-```
-Shipping container converted to office: yellow work light, folder on makeshift desk, boots, military-style canned food, oil smell, temporary industrial space, 1992 Ukraine --niji 6
-```
+*(Старый бриф «бокс Конча-Заспа / жёлтая переноска» — не путать с дачей академика.)*
 
 ---
 
-## Орбита — международные локации
+## Орбита (главы 20–27) и эпилог
 
-### Хавала — лавка обменника (Глава 18)
-**Описание**: Неформальный банк, порт (возможно Одесса/Стамбул)  
-**Детали**:
-- Часы разномастные врут
-- Прилавок пыльный
-- Чайки за окном
-- Золото под доской
-- Половина шестёрки червей (torn playing card)
-- Колокольчик фальшивый
+Нумерация сдвинута на +2 относительно старого пакета.
 
-**Manga prompt**:
+| Место | Глава | Было |
+|---|---|---|
+| Подвал Липок, шестёрка червей | 20 | «18 хавала» |
+| Кофейня Галаты / Карина | 21 | 19 |
+| Банк / кольцо Вены, Инна | 22 | 20 |
+| Шулявка, схема «Циля» | 23 | 21 |
+| Яффо, верстак Цилі | 24 | 22 |
+| Стамбул, османистика, Тарик | 25 | 23 |
+| Дубай, лот 47, груша | 26 | 24 |
+| Чайный дом, Hollywood Road | 27 | 25 |
+| Отель «Захер», Вена | эпилог | не было в 25-главном пакете |
+
+### Чайный дом (Глава 27)
+Бамбук, гайвань, чабань, ципао Линь, влажный полдень колонии. Инженер в киевской куртке не по сезону.
+
 ```
-Informal money exchange shop near port: wall of mismatched clocks showing wrong times, dusty counter, seagulls visible through narrow window, gold coins from under board, torn half of playing card, 1990s hawala aesthetic --niji 6
+Hong Kong tea house Hollywood Road 1990s, bamboo door, gaiwan, lacquer, sapphire qipao, humid noon slit of light
 ```
+
+### «Захер» (Эпилог)
+Закрытая комната: дуб, четыре стула, двор во двор. Портье не смотрит в глаза. Марго спиной к окну.
 
 ---
 
-### Кофейня Галаты (Глава 19)
-**Описание**: Стамбул, район Галата  
-**Детали**:
-- Медные турки
-- Кальян дым
-- Босфор за окном
-- Учебник на столе
+## Палитры
 
-**Manga prompt**:
-```
-Istanbul café near Galata: copper coffee pots, hookah smoke, Bosphorus view through window, textbook on small table, 1992 Turkey, cross-border atmosphere --niji 6
-```
+- Общага / ячейка: жёлтый пыльный, серый, ацетон
+- Дождь: графит, розовая кровь, жёлтые лужи
+- Салон: янтарь, бордо, воск
+- СИТО: фосфор, бетон
+- Шулявка: серый, зелёный абажур, жемчуг
+- Орбита: у каждой свой акцент (Яффо — плоский жар; Вена — мокрый камень; Гонконг — лак и влага)
 
----
-
-### Банк Вены (Глава 20)
-**Описание**: Австрийский банк, коридор  
-**Детали**:
-- Панели сукна на стенах
-- Очередь без герба
-- Стекло стойки
-- Мокрый снег на кольце
-- Печать
-
-**Manga prompt**:
-```
-Vienna bank corridor: fabric wall panels, queue without heraldry, clerk behind glass stamping document, wet snow melting on client's glove, 1990s Austrian banking, cold institutional --niji 6
-```
-
----
-
-### Верстак Циля, Яффо (Глава 22)
-**Описание**: Часовая мастерская, Тель-Авив  
-**Детали**:
-- Верстак захламлённый
-- Лупа ювелирная
-- Пинцет
-- Хронометр разобран
-- Ходики разномастные на стенах
-- Кардиган
-- Масло плёнкой
-- Кардамон запах
-- Жара плоская снаружи
-
-**Manga prompt**:
-```
-Watchmaker's workshop in Jaffa: cluttered workbench, jeweler's loupe, tweezers, disassembled chronometer, mismatched clocks on walls, cardigan on chair, flat yellow heat from street, cardamom scent, Tel Aviv --niji 6
-```
-
----
-
-### Османистика — коридор/кафе (Глава 23)
-**Описание**: Университет или кафе, Турция  
-**Детали**:
-- Конспект открытый
-- Сигарета дымит
-- Пальто на плитке
-- Академическая модестность vs скука
-
-**Manga prompt**:
-```
-University corridor or café: open notebook, cigarette burning, coat on tiles, academic setting, 1990s Turkey, recruitment scene --niji 6
-```
-
----
-
-### Терраса над водой (Глава 24)
-**Описание**: Ближний Восток, терраса ресторана  
-**Детали**:
-- Бронзовая люстра
-- Кальян угли
-- Кофе, шербет
-- Волны внизу
-- Груша (камень) на ткани
-- Без бланка
-
-**Manga prompt**:
-```
-Terrace overlooking water: bronze chandelier, hookah coals glowing, coffee cups, waves below, pear-shaped gemstone on cloth, no paperwork, Middle East coast, informal dealing --niji 6
-```
-
----
-
-### Чайный дом Голливуд-роуд (Глава 25)
-**Описание**: Гонконг, традиционный чайный дом  
-**Детали**:
-- Бамбуковая дверь
-- Циновка
-- Гайвань, чабань (tea ceremony tools)
-- Влажный воздух колонии
-- Лак и тень внутри
-- Полдень в щель
-- Вывеска про покой
-
-**Manga prompt**:
-```
-Hong Kong tea house: bamboo door, low table with gaiwan and chaban, lacquer interior, slanted noon light through shutter, humid colony air, Hollywood Road outside, traditional Chinese tea ceremony space, 1990s handover era --niji 6
-```
-
----
-
-## Технические ноты для фонов
-
-- **Перспектива**: реалистичная, не anime-simplified
-- **Детали**: worn textures обязательны (облупленная краска, потёртый паркет, пыль)
-- **Свет**: источники света важны (лампа, фосфор, окно) — создают настроение
-- **Масштаб**: человек в пространстве должен чувствовать вес локации
-- **Референсы**: фото 1990s Eastern Europe, Soviet interiors, Tarkovsky films, documentary photography
-
-## Цветовая палитра (если цветная манга)
-
-- **Киев зима**: серые, тёмно-зелёные, жёлтые (лампы), белый (снег)
-- **Салон Липок**: янтарный, бордо, тёмное дерево
-- **СИТО**: зелёный фосфор, серый бетон, чёрные тени
-- **Орбита**: каждая локация свой акцент (Яффо — жёлтый жара, Вена — холодный серый, Гонконг — влажный зелёный + лак)
-
-Если чёрно-белая: активно использовать screentone для текстур и атмосферы.
+Если ч/б — screentone, не пустой белый «чистый Киев».
