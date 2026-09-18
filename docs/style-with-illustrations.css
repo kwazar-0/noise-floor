@@ -15,140 +15,150 @@
     box-sizing: border-box;
 }
 
+html {
+    background: var(--noir-dark);
+    min-height: 100%;
+}
+
 body {
     font-family: 'Georgia', 'Times New Roman', serif;
     line-height: 1.8;
-    background: var(--noir-dark);
+    background-color: var(--noir-dark);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: var(--noir-light);
     position: relative;
     min-height: 100vh;
+    padding: 0 2.5rem 3rem;
 }
 
-/* Background image container */
+/* 20% dark veil so PNG stays visible and text remains readable */
 body::before {
     content: '';
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0.2; /* 20% transparency */
-    z-index: -1;
+    inset: 0;
+    background: rgba(10, 10, 10, 0.2);
+    pointer-events: none;
+    z-index: 0;
 }
 
-/* Page-specific backgrounds */
-body.chapter-cell::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-01-cell.png');
+article,
+.container,
+body > p,
+h1, h2, h3 {
+    position: relative;
+    z-index: 1;
 }
 
-/* Character portrait backgrounds (alternative) */
-body.character-nina::before {
-    background-image: url('../assets/references/characters/ref-character-nina.png');
+/* Page-specific backgrounds — paths relative to this CSS file (docs/) */
+body.chapter-cell {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-01-cell.png');
 }
 
-body.chapter-moskvich::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-02-moskvich.png');
+body.character-nina {
+    background-image: url('assets/references/characters/ref-character-nina.png');
 }
 
-body.chapter-dk::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-03-dk.png');
+body.chapter-moskvich {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-02-moskvich.png');
 }
 
-body.chapter-karakul::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-04-karakul.png');
+body.chapter-dk {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-03-dk.png');
 }
 
-body.chapter-dossier::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-05-dossier.png');
+body.chapter-karakul {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-04-karakul.png');
 }
 
-body.chapter-empty-place::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-06-empty-place.png');
+body.chapter-dossier {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-05-dossier.png');
 }
 
-body.chapter-dekanat::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-07-dekanat.png');
+body.chapter-empty-place {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-06-empty-place.png');
 }
 
-body.chapter-cafe::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-08-cafe-committee.png');
+body.chapter-dekanat {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-07-dekanat.png');
 }
 
-body.chapter-garages::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-09-garages.png');
+body.chapter-cafe {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-08-cafe-committee.png');
 }
 
-body.chapter-sito::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-10-sito.png');
+body.chapter-garages {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-09-garages.png');
 }
 
-body.chapter-shulyavka::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-11-shulyavka.png');
+body.chapter-sito {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-10-sito.png');
 }
 
-body.chapter-grushevskogo::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-12-grushevskogo.png');
+body.chapter-shulyavka {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-11-shulyavka.png');
 }
 
-body.chapter-mundshtuk::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-13-mundshtuk.png');
+body.chapter-grushevskogo {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-12-grushevskogo.png');
 }
 
-body.chapter-koncha::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-14-koncha.png');
+body.chapter-mundshtuk {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-13-mundshtuk.png');
 }
 
-body.chapter-secret-court::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-15-secret-court.png');
+body.chapter-koncha {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-14-koncha.png');
 }
 
-body.chapter-zasov::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-16-zasov.png');
+body.chapter-secret-court {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-15-secret-court.png');
 }
 
-body.chapter-coda::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-17-coda.png');
+body.chapter-zasov {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-16-zasov.png');
 }
 
-/* Orbit chapters */
-body.chapter-hawala::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-18-hawala.png');
+body.chapter-coda {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-17-coda.png');
 }
 
-body.chapter-karina::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-19-karina.png');
+body.chapter-hawala {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-18-hawala.png');
 }
 
-body.chapter-vienna::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-20-vienna.png');
+body.chapter-karina {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-19-karina.png');
 }
 
-body.chapter-archive::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-21-archive.png');
+body.chapter-vienna {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-20-vienna.png');
 }
 
-body.chapter-tzilya::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-22-tzilya.png');
+body.chapter-archive {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-21-archive.png');
 }
 
-body.chapter-tarik::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-23-tarik.png');
+body.chapter-tzilya {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-22-tzilya.png');
 }
 
-body.chapter-lot47::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-24-lot47.png');
+body.chapter-tarik {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-23-tarik.png');
 }
 
-body.chapter-madam-lin::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-25-madam-lin.png');
+body.chapter-lot47 {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-24-lot47.png');
 }
 
-/* Cover for index pages */
-body.cover-page::before {
-    background-image: url('../assets/illustrations/tom1-v2/tom1-v2-00-cover.png');
+body.chapter-madam-lin {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-25-madam-lin.png');
+}
+
+body.cover-page {
+    background-image: url('assets/illustrations/tom1-v2/tom1-v2-00-cover.png');
 }
 
 /* Content container */

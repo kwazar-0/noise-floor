@@ -95,19 +95,17 @@
 
 ## Як працює:
 
+PNG мають лежати **всередині `docs/`**, інакше GitHub Pages їх не віддає.
+
 ```css
-/* Фон через псевдо-елемент */
-body::before {
-    content: '';
-    position: fixed;
-    background-image: url(...);
-    opacity: 0.2;  /* 20% */
-    z-index: -1;
+/* Картинка на body, шлях від CSS-файла docs/style-with-illustrations.css */
+body.character-nina {
+    background-image: url('assets/references/characters/ref-character-nina.png');
 }
 
-/* Текст з тінню для читабельності */
-p {
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+/* 20% темна вуаль поверх фото */
+body::before {
+    background: rgba(10, 10, 10, 0.2);
 }
 ```
 
